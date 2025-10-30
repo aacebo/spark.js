@@ -8,16 +8,27 @@ features:
 index:
   - '*.md'
   - packages
+  - packages/ai
   - packages/ai/**/*.{ts,md}
+  - packages/api
   - packages/api/**/*.{ts,md}
+  - packages/apps
   - packages/apps/**/*.{ts,md}
+  - packages/botbuilder
   - packages/botbuilder/**/*.{ts,md}
+  - packages/cards
   - packages/cards/**/*.{ts,md}
+  - packages/cli
   - packages/cli/**/*.{ts,md}
+  - packages/client
   - packages/client/**/*.{ts,tsx,md}
+  - packages/common
   - packages/common/**/*.{ts,md}
+  - packages/openai
   - packages/openai/**/*.{ts,md}
   - external
+  - external/*
   - external/**/*.{ts,md}
   - tests
+  - tests/*
   - tests/**/*.{ts,md}
