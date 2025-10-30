@@ -7,6 +7,7 @@ features:
   pull_requests: true
 index:
   - '*.md'
+  - packages
   - packages/ai/**/*.{ts,md}
   - packages/api/**/*.{ts,md}
   - packages/apps/**/*.{ts,md}
@@ -16,5 +17,7 @@ index:
   - packages/client/**/*.{ts,tsx,md}
   - packages/common/**/*.{ts,md}
   - packages/openai/**/*.{ts,md}
+  - external
   - external/**/*.{ts,md}
+  - tests
   - tests/**/*.{ts,md}
