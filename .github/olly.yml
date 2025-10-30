@@ -8,12 +8,16 @@ features:
 index:
   include:
     - '*.md'
-    - packages/**/*.{ts,md}
-    - external/**/*.{ts,md}
-    - tests/**/*.{ts,md}
+    - packages/**/*.ts
+    - packages/**/*.md
+    - external/**/*.ts
+    - external/**/*.md
+    - tests/**/*.ts
+    - tests/**/*.md
   exclude:
     - packages/config/**/*
     - packages/graph-endpoints/**/*
     - packages/graph-endpoints-beta/**/*
     - packages/graph-tools/**/*
     - packages/graph/**/*
+    - packages/devtools/**/*
