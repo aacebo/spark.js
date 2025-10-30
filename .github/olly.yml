@@ -1,9 +1,20 @@
 model: gpt-4o
-parent: https://github.com/aacebo/futures.io
-documentation: https://github.com/aacebo/futures.doc
+parent: https://github.com/microsoft/teams.ts
+documentation: https://github.com/microsoft/teams-ai
 features:
   issues: true
   discussions: true
   pull_requests: true
 index:
-  - ./Libraries/**/*.cs
+  - '*.md'
+  - packages/ai/**/*.{ts,md}
+  - packages/api/**/*.{ts,md}
+  - packages/apps/**/*.{ts,md}
+  - packages/botbuilder/**/*.{ts,md}
+  - packages/cards/**/*.{ts,md}
+  - packages/cli/**/*.{ts,md}
+  - packages/client/**/*.{ts,tsx,md}
+  - packages/common/**/*.{ts,md}
+  - packages/openai/**/*.{ts,md}
+  - external/**/*.{ts,md}
+  - tests/**/*.{ts,md}
